@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM ubuntu:xenial-20210416
 
 # Install custom tools, runtime, etc.
 RUN sudo apt-get update \
