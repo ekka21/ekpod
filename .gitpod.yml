@@ -1,14 +1,2 @@
 image:
   file: .gitpod.Dockerfile
-tasks:
-  - command: sudo docker-up
-    name: Docker daemon
-  - command: docker
-github:
-  prebuilds:
-    main: true
-    branches: true
-    pullRequests: true
-    pullRequestsFromForks: true
-    addCheck: true
-    addComment: true
